@@ -15,7 +15,7 @@ cd candlechart_bot
 3. Создаем виртуальную среду:
 ```shell
 python -m venv venv
-source venv/bin/activate
+venv\Scripts\activate
 ```
 
 5. Устанваливаем сторонние библиотеки:
