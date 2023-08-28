@@ -19,7 +19,7 @@ source venv/bin/activate
 
 5. Устанваливаем сторонние библиотеки:
   ```shell
-git install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 7. Запускаем скрипт:
