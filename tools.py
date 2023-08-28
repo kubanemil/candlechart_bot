@@ -27,5 +27,6 @@ def get_ema(data, period):
 
 
 def create_plot(data, ema):
-    mpf.plot(data, type='candle', style='charles', title="Candlestick Chart with EMA",
-             addplot=[mpf.make_addplot(ema, color='orange')], ylabel='Price', xlabel='Date')
+    return mpf.plot(data, type='candle', style='charles', title="Candlestick Chart with EMA",
+             addplot=[mpf.make_addplot(ema, color='orange')], ylabel='Price', xlabel='Date',
+             figratio=(15, 6), returnfig=True)
