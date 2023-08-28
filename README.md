@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 7. Запускаем скрипт:
 ```shell
-python3 main.py
+python main.py
 ```
 
 После этого надо ввести все данные (Но можете нажимать "Enter" для запуска по умолчанию).
