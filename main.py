@@ -22,4 +22,4 @@ ema = get_ema(candle_data, period=ema_period)
 # Final Plot
 plot, ax = create_plot(candle_data, ema=ema)
 plot.show()
-input()
+input('Hit "ENTER" to exit: ')
