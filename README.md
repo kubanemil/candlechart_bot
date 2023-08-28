@@ -9,11 +9,12 @@
 1. Клонируем репозиторий:
 ```shell
 git clone https://github.com/kubanemil/candlechart_bot
+cd candlechart_bot
 ```
 
 3. Создаем виртуальную среду:
 ```shell
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 ```
 
