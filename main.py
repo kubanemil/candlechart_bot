@@ -7,7 +7,7 @@ if input('Customize the parameters?(Y/n) ').lower() == 'y':
     print('\n2. Enter an interval for candlestick (ex. 2 days => 2D or 10 hours = > 10H or 15 mintues => 15T')
     candlestick_interval = input('(Press "ENTER" for (default="12H")): ') or '12H'
 
-    ema_period = int(input(f'\n3. Enter a period to calculate EMA.\n(Press "ENTER" for default="12H"): ') or 3)
+    ema_period = int(input(f'\n3. Enter a period to calculate EMA.\n(Press "ENTER" for default=3): ') or 3)
 
     print('\n4. Enter which period to display in percents (e.g. 10-65 will show a date from 10% to 65%')
     display_period = (input('(Press "ENTER" to show for entire period): ') or '0-100').split('-')
