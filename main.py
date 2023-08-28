@@ -9,7 +9,7 @@ if input('Customize the parameters?(Y/n) ').lower() == 'y':
 
     ema_period = int(input(f'\n3. Enter a period to calculate EMA.\n(Press "ENTER" for default=3): ') or 3)
 
-    print('\n4. Enter which period to display in percents (e.g. 10-65 will show a date from 10% to 65%')
+    print('\n4. Enter which period to display in percents (e.g. 10-65 => 10% to 65%')
     display_period = (input('(Press "ENTER" to show for entire period): ') or '0-100').split('-')
 
 else:
